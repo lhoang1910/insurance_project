@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26c18761-46d6-4096-8dab-d6723a4db157" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Business/AC-Module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Business/demo">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/CRM-Module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Core-Module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/AC-Module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/AC-Module/Domain">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/ac-module/command">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/ac-module/domain">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/ac-module/flow">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/ac-module/query">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/core-module/core-cmd">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/core-module/core-domain">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/business/core-module/core-flow">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/core-query">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/infrastructure">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/infrastructure/api_gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/infrastructure/authentication_service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/infrastructure/registry_service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/shared">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ilTKSao14QMNG25aXYCL0NXfSy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build api_gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build authentication_service.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build command.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build flow.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build query.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build registry_service.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AuthenticationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CommandApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.FlowApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.QueryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RegistryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/hoang/Project/insurane/business/core-module&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.insurance.business.ac.flow.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hoang\Project\insurane\business\ac-module\query\src\main\java\com\insurance\business\ac\query" />
+      <recent name="D:\hoang\Project\insurane\business\ac-module\flow\src\main\java\com\insurance\business\ac\flow" />
+      <recent name="D:\hoang\Project\insurane\business\ac-module\command\src\main\java\com\insurance\business\ac\commad" />
+      <recent name="D:\hoang\Project\insurane\shared\src\main\java\com\insurance\infrastructure\shared" />
+      <recent name="D:\hoang\Project\insurane\business\ac-module\domain\src\main\java\com\insurance\business\ac\domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hoang\Project\insurane\business\core-module" />
+      <recent name="D:\hoang\Project\insurane\business" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommandApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="authentication_service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.infrastructure.authentication.AuthenticationServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.insurance.infrastructure.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="command.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.ac.command.CommandApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.insurance.business.ac.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreCmdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-cmd.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.command.CoreCmdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreDomainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-domain.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.domain.CoreDomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreDomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-domain.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.coredomain.CoreDomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreFlowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-flow.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.coreflow.CoreFlowApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreQueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-query.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.query.CoreQueryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="flow.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.ac.flow.FlowApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.insurance.business.ac.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="query.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.ac.query.QueryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.insurance.business.ac.query.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="registry_service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.infrastructure.registry_service.RegistryServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.insurance.infrastructure.registry_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-domain.shared.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.infrastructure.shared.SharedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CommandApplication" />
+        <item itemvalue="Spring Boot.QueryApplication" />
+        <item itemvalue="Spring Boot.FlowApplication" />
+        <item itemvalue="Spring Boot.AuthenticationServiceApplication" />
+        <item itemvalue="Spring Boot.RegistryServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26c18761-46d6-4096-8dab-d6723a4db157" name="Changes" comment="" />
+      <created>1720064102762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720064102762</updated>
+      <workItem from="1720064103838" duration="8369000" />
+      <workItem from="1720074969049" duration="63000" />
+      <workItem from="1720075041871" duration="14484000" />
+      <workItem from="1720090110702" duration="621000" />
+      <workItem from="1720100324341" duration="10294000" />
+      <workItem from="1720144081400" duration="1615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/ac-module/command/src/main/java/com/insurance/business/ac/command/controller/UserController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/ac-module/command/src/main/java/com/insurance/business/ac/command/service/impl/UserServiceImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/ac-module/command/src/main/java/com/insurance/business/ac/command/handler/impl/UserCommandHandlerImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/ac-module/command/src/main/java/com/insurance/business/ac/command/service/impl/EventStoreServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/ac-module/command/src/main/java/com/insurance/business/ac/command/service/impl/EventStoreServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/business/ac-module/command/src/main/java/com/insurance/business/ac/command/service/impl/EventStoreServiceImpl.java</url>
+          <line>23</line>
+          <properties class="com.insurance.business.ac.command.service.impl.EventStoreServiceImpl" method="save">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

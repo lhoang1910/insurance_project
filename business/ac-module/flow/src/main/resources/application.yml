@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: flow
+
+  redis:
+    host: localhost
+    port: 6379
+
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/insurances
+    username: postgres
+    password: 123456
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8088

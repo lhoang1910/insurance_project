@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authentication_service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/authentication_service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/authentication_service.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/authentication_service.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/command.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/command.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/core-domain.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/core-domain.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/domain.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/domain.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/flow.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/flow.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/infrastructure.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/infrastructure.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurane.iml" filepath="$PROJECT_DIR$/insurane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1244268484/query.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1244268484/query.shared.main.iml" />
+    </modules>
+  </component>
+</project>

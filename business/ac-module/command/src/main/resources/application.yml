@@ -1,0 +1,45 @@
+spring:
+
+  application:
+    name : user_command
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/insurances
+    username: postgres
+    password: 123456
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      properties:
+        debezium:
+          sink:
+            type: topic
+            topic.prefix: debezium
+          database:
+            hostname: localhost
+            port: 5432
+            user: postgres
+            password: 123456
+            dbname: insurances
+          offset:
+            storage:
+              file:
+                filename: data/offsets.dat
+            flush:
+              interval:
+                ms: 60000
+
+server:
+  port: 8086

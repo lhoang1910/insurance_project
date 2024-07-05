@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/business/ac-module/command" />
+    <file type="web" url="file://$PROJECT_DIR$/business/ac-module/domain" />
+    <file type="web" url="file://$PROJECT_DIR$/business/ac-module/flow" />
+    <file type="web" url="file://$PROJECT_DIR$/business/ac-module/query" />
+    <file type="web" url="file://$PROJECT_DIR$/business/core-module/core-cmd" />
+    <file type="web" url="file://$PROJECT_DIR$/business/core-module/core-domain" />
+    <file type="web" url="file://$PROJECT_DIR$/business/core-module/core-flow" />
+    <file type="web" url="file://$PROJECT_DIR$/business/core-module/core-query" />
+    <file type="web" url="file://$PROJECT_DIR$/infrastructure" />
+    <file type="web" url="file://$PROJECT_DIR$/shared" />
+  </component>
+</project>

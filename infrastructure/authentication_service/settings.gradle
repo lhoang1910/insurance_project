@@ -1,0 +1,4 @@
+rootProject.name = 'authentication_service'
+
+include(":shared")
+project(":shared").projectDir = file("../../shared")

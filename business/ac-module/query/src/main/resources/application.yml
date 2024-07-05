@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: user-query
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/insurances
+    username: postgres
+    password: 123456
+
+server:
+  port: 8087
