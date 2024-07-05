@@ -1,9 +1,6 @@
 package com.insurance.infrastructure.shared.base;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Date;
 
@@ -11,6 +8,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Getter
 @Setter
+@Builder
 public class BaseInsured {
     private String registrationCertificateType; // Kiểu giấy chứng nhận
     private Date registrationStartDate;

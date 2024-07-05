@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c18761-46d6-4096-8dab-d6723a4db157" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-1244268484/core-cmd.shared.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/core-cmd.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/core-domain.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/human/HumanModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/ac-module/domain/src/main/java/com/insurance/business/ac/domain/entity/EventStoreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/ac-module/domain/src/main/java/com/insurance/business/ac/domain/entity/EventStoreEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/java/com/insurance/business/core/command/CoreCmdApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/java/com/insurance/business/core/command/CoreCmdApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/java/com/insurance/business/core/command/service/impl/QuotationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/java/com/insurance/business/core/command/service/impl/QuotationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/aggregate/QuotationAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/aggregate/QuotationAggregate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/entity/QuotationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/entity/QuotationEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/HealthModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/MotorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/xcg/CarModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/MotorPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/premium/MotorPremium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/constant/OPERATION.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/constant/LINE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/model/BaseInsuranceObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/base/BaseInsured.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/base/BaseInsured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/base/BasePremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/base/BasePremium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/command/quotation/CreateQuotationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/command/quotation/CreateQuotationCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/command/quotation/UpdateQuotationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/command/quotation/UpdateQuotationCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/event/quotation/QuotationCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/event/quotation/QuotationCreatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/event/quotation/QuotationUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/event/quotation/QuotationUpdatedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/request/quotation/CreateQuotationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/request/quotation/CreateQuotationRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +191,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\hoang\Project\insurane\business\core-module" />
       <recent name="D:\hoang\Project\insurane\business" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.insurance.business.core.command.utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,7 +372,7 @@
       <workItem from="1720075041871" duration="14484000" />
       <workItem from="1720090110702" duration="621000" />
       <workItem from="1720100324341" duration="10294000" />
-      <workItem from="1720144081400" duration="28082000" />
+      <workItem from="1720144081400" duration="30839000" />
     </task>
     <servers />
   </component>

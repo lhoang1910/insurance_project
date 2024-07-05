@@ -1,12 +1,9 @@
 package com.insurance.infrastructure.shared.event.quotation;
 
 import com.insurance.infrastructure.shared.base.BaseEvent;
-import com.insurance.infrastructure.shared.base.BaseInsured;
-import com.insurance.infrastructure.shared.base.BasePremium;
 import lombok.*;
 
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -35,11 +32,11 @@ public class QuotationUpdatedEvent extends BaseEvent {
     private Integer quantityOfPrincipleContract;
     private String representative; //Người đại diện
     private Integer status;
-    private Map<Integer, List<BaseInsured>> inusranceObject = new HashMap<>();   // Key là mã sản phẩm
-    private Map<Integer, List<BasePremium>> paymentFee = new HashMap<>();
+    private List<Map<String, Object>> insuranceObjects;
+    private Map<String, Object> paymentFee;
 
     @Builder
-    public QuotationUpdatedEvent(Date updatedAt, String updatedBy, String id, String quotationCode, Integer line, String productName, Integer quotationType, String createBy, Boolean isCoinsurance, Boolean isFixed, Integer currency, Double exchangeRate, String distributionChannel, String managerialStaff, String customerName, String beneficiary, String insurer, String agentCode, String programCode, Integer quantityOfPrincipleContract, String representative, Integer status, Map<Integer, List<BaseInsured>> inusranceObject, Map<Integer, List<BasePremium>> paymentFee) {
+    public QuotationUpdatedEvent(Date updatedAt, String updatedBy, String id, String quotationCode, Integer line, String productName, Integer quotationType, String createBy, Boolean isCoinsurance, Boolean isFixed, Integer currency, Double exchangeRate, String distributionChannel, String managerialStaff, String customerName, String beneficiary, String insurer, String agentCode, String programCode, Integer quantityOfPrincipleContract, String representative, Integer status, List<Map<String, Object>> insuranceObject, Map<String, Object> paymentFee) {
         super(updatedAt, updatedBy);
         this.id = id;
         this.quotationCode = quotationCode;
@@ -61,7 +58,7 @@ public class QuotationUpdatedEvent extends BaseEvent {
         this.quantityOfPrincipleContract = quantityOfPrincipleContract;
         this.representative = representative;
         this.status = status;
-        this.inusranceObject = inusranceObject;
+        this.insuranceObjects = insuranceObject;
         this.paymentFee = paymentFee;
     }
 }

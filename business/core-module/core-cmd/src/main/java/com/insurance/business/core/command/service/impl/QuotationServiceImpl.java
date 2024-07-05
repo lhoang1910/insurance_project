@@ -2,6 +2,10 @@ package com.insurance.business.core.command.service.impl;
 
 import com.insurance.business.core.command.handle.QuotationCommandHandle;
 import com.insurance.business.core.command.service.QuotationService;
+import com.insurance.business.core.command.utils.InsuranceObjectTransfer;
+import com.insurance.business.core.command.utils.PaymentFeeTransfer;
+import com.insurance.infrastructure.shared.base.BaseInsured;
+import com.insurance.infrastructure.shared.base.BasePremium;
 import com.insurance.infrastructure.shared.command.quotation.CreateQuotationCommand;
 import com.insurance.infrastructure.shared.request.quotation.CreateQuotationRequest;
 import com.insurance.infrastructure.shared.response.WrapResponse;
@@ -9,6 +13,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 @Service
@@ -19,6 +25,7 @@ public class QuotationServiceImpl implements QuotationService {
 
     @Override
     public WrapResponse<?> createQuotation(CreateQuotationRequest request, String username) {
+
         handle.handle(CreateQuotationCommand.builder()
                         .quotationCode(UUID.randomUUID().toString())
                         .line(request.getLine())
@@ -42,9 +49,27 @@ public class QuotationServiceImpl implements QuotationService {
                         .quantityOfPrincipleContract(request.getQuantityOfPrincipleContract())
                         .representative(request.getRepresentative())
                         .status(request.getStatus())
-                        .inusranceObject(request.getInusranceObject())
+                        .insuranceObjects(InsuranceObjectTransfer.insuranceObjects(
+                                BaseInsured.builder()
+                                        .registrationCertificateType(request.getRegistrationCertificateType())
+                                        .registrationEndDate(request.getRegistrationEndDate())
+                                        .insuranceCertificateNumber(request.getInsuranceCertificateNumber())
+                                        .insuranceCertificateIssueDate(request.getInsuranceCertificateIssueDate())
+                                        .registrationStartDate(request.getRegistrationStartDate())
+                                        .build(),  request.getInsuranceObjectInfos()))
                         .isDeleted(request.getIsDeleted())
-                        .paymentFee(request.getPaymentFee())
+                        .paymentFee(PaymentFeeTransfer.paymentFee(
+                                BasePremium.builder()
+                                        .type(request.getType())
+                                        .sumInsured(request.getSumInsured())
+                                        .premiumRate(request.getPremiumRate())
+                                        .standardPremium(request.getStandardPremium())
+                                        .discountRate(request.getDiscountRate())
+                                        .premiumRateRatio(request.getPremiumRateRatio())
+                                        .paymentPremium(request.getPaymentPremium())
+                                        .sumPremium(request.getSumPremium())
+                                        .build(), request.getPaymentFee()
+                        ))
                         .updatedBy(username)
                 .build());
         return new WrapResponse<>(true, HttpStatus.OK.value(), "Create User Successfully", null);

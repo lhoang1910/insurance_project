@@ -37,8 +37,21 @@ public class CreateQuotationRequest {
     private Integer quantityOfPrincipleContract;
     private String representative; //Người đại diện
     private Integer status;
-    private Map<Integer, List<BaseInsured>> inusranceObject = new HashMap<>();   // Key là mã sản phẩm
-    private Map<Integer, List<BasePremium>> paymentFee = new HashMap<>();
+    private String registrationCertificateType; // Kiểu giấy chứng nhận
+    private Date registrationStartDate;
+    private Date registrationEndDate;
+    private String insuranceCertificateNumber; // Số giấy chứng nhận bảo hiểm
+    private Date insuranceCertificateIssueDate; // Ngày cấp chứng nhận bảo hiểm
+    private List<Map<String, Object>> insuranceObjectInfos;
     private Boolean isDeleted;
     private String updatedBy;
+    private String type;    // Quyền lợi/loại hình
+    private Double sumInsured;  //STBH
+    private Double premiumRate;     //Tỉ lệ phí
+    private Double standardPremium; // Phí chuẩn
+    private Double discountRate;    // Tỉ lệ giảm phí
+    private Double premiumRateRatio;     // Tỉ lệ phí thanh toán
+    private Double paymentPremium;     // Phí thanh toán
+    private Long sumPremium;
+    private Map<String, Object> paymentFee;
 }

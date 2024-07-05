@@ -1,14 +1,12 @@
 package com.insurance.infrastructure.shared.base;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class BasePremium {
 
     private String type;    // Quyền lợi/loại hình
@@ -16,7 +14,7 @@ public class BasePremium {
     private Double premiumRate;     //Tỉ lệ phí
     private Double standardPremium; // Phí chuẩn
     private Double discountRate;    // Tỉ lệ giảm phí
-    private Double claimsRatio;     // Tỉ lệ phí thanh toán
+    private Double premiumRateRatio;     // Tỉ lệ phí thanh toán
     private Double paymentPremium;     // Phí thanh toán
     private Long sumPremium;
 

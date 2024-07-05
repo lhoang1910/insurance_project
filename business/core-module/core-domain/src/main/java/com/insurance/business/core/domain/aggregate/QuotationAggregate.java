@@ -43,8 +43,8 @@ public class QuotationAggregate extends BaseAggregate {
     private Integer quantityOfPrincipleContract;
     private String representative; //Người đại diện
     private Integer status;
-    private Map<Integer, List<BaseInsured>> inusranceObject;   // Key là mã sản phẩm
-    private Map<Integer, List<BasePremium>> paymentFee;
+    private List<Map<String, Object>> insuranceObjects;
+    private Map<String, Object> paymentFee;
     private Boolean isDeleted;
     private String updatedBy;
 
@@ -72,7 +72,7 @@ public class QuotationAggregate extends BaseAggregate {
         this.quantityOfPrincipleContract = command.getQuantityOfPrincipleContract();
         this.representative = command.getRepresentative();
         this.status = command.getStatus();
-        this.inusranceObject = command.getInusranceObject();
+        this.insuranceObjects = command.getInsuranceObjects();
         this.paymentFee = command.getPaymentFee();
         this.isDeleted = false;
         this.updatedBy = command.getUpdatedBy();
@@ -101,7 +101,7 @@ public class QuotationAggregate extends BaseAggregate {
                 .quantityOfPrincipleContract(this.quantityOfPrincipleContract)
                 .representative(this.representative)
                 .status(this.status)
-                .inusranceObject(this.inusranceObject)
+                .insuranceObject(this.insuranceObjects)
                 .paymentFee(this.paymentFee)
                 .isDeleted(this.isDeleted)
                 .updatedBy(this.updatedBy)
@@ -128,7 +128,7 @@ public class QuotationAggregate extends BaseAggregate {
         this.quantityOfPrincipleContract = command.getQuantityOfPrincipleContract();
         this.representative = command.getRepresentative();
         this.status = command.getStatus();
-        this.inusranceObject = command.getInusranceObject();
+        this.insuranceObjects = command.getInsuranceObjects();
         this.paymentFee = command.getPaymentFee();
         this.updatedBy = command.getUpdatedBy();
 
@@ -153,7 +153,7 @@ public class QuotationAggregate extends BaseAggregate {
                 .quantityOfPrincipleContract(this.quantityOfPrincipleContract)
                 .representative(this.representative)
                 .status(this.status)
-                .inusranceObject(this.inusranceObject)
+                .insuranceObject(this.insuranceObjects)
                 .paymentFee(this.paymentFee)
                 .updatedBy(this.updatedBy)
                 .updatedAt(new Date())

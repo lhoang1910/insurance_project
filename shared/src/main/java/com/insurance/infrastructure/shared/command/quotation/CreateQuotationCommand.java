@@ -5,10 +5,7 @@ import com.insurance.infrastructure.shared.base.BaseInsured;
 import com.insurance.infrastructure.shared.base.BasePremium;
 import lombok.*;
 
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Getter
 @Setter
@@ -39,8 +36,9 @@ public class CreateQuotationCommand extends BaseCommand {
     private Integer quantityOfPrincipleContract;
     private String representative; //Người đại diện
     private Integer status;
-    private Map<Integer, List<BaseInsured>> inusranceObject = new HashMap<>();   // Key là mã sản phẩm
-    private Map<Integer, List<BasePremium>> paymentFee = new HashMap<>();
+    private List<Map<String, Object>> insuranceObjects;
+    private Map<String, Object> paymentFee;
     private Boolean isDeleted;
     private String updatedBy;
+
 }

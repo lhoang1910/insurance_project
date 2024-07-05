@@ -96,13 +96,21 @@ public class QuotationEntity {
     private String representative; //Người đại diện
     private Integer status;
 
-    @Type(type = JPA_TYPE.JSON_BINARY)
-    @Column(columnDefinition = JPA_TYPE.JSON_BINARY)
-    private Map<Integer, List<BaseInsured>> inusranceObject = new HashMap<>();   // Key là mã sản phẩm
+//    @Type(type = JPA_TYPE.JSON_BINARY)
+//    @Column(columnDefinition = JPA_TYPE.JSON_BINARY)
+//    private Map<Integer, List<BaseInsured>> inusranceObject = new HashMap<>();   // Key là mã sản phẩm
+//
+//    @Type(type = JPA_TYPE.JSON_BINARY)
+//    @Column(columnDefinition = JPA_TYPE.JSON_BINARY)
+//    private Map<Integer, List<BasePremium>> paymentFee = new HashMap<>();    // Key là mã nghiệp vụ
 
     @Type(type = JPA_TYPE.JSON_BINARY)
     @Column(columnDefinition = JPA_TYPE.JSON_BINARY)
-    private Map<Integer, List<BasePremium>> paymentFee = new HashMap<>();    // Key là mã nghiệp vụ
+    private List<Map<String, Object>> insuranceObjects;
+
+    @Type(type = JPA_TYPE.JSON_BINARY)
+    @Column(columnDefinition = JPA_TYPE.JSON_BINARY)
+    private Map<String, Object> paymentFee;
 
     private Integer paymentMethod;
     public void setPaymentMethod(Integer paymentMethod) {

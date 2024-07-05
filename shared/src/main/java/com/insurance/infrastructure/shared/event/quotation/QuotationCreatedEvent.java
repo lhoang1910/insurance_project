@@ -3,8 +3,11 @@ package com.insurance.infrastructure.shared.event.quotation;
 import com.insurance.infrastructure.shared.base.BaseEvent;
 import com.insurance.infrastructure.shared.base.BaseInsured;
 import com.insurance.infrastructure.shared.base.BasePremium;
+import com.insurance.infrastructure.shared.constant.JPA_TYPE;
 import lombok.*;
+import org.hibernate.annotations.Type;
 
+import javax.persistence.Column;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -39,12 +42,12 @@ public class QuotationCreatedEvent extends BaseEvent {
     private Integer quantityOfPrincipleContract;
     private String representative; //Người đại diện
     private Integer status;
-    private Map<Integer, List<BaseInsured>> inusranceObject = new HashMap<>();   // Key là mã sản phẩm
-    private Map<Integer, List<BasePremium>> paymentFee = new HashMap<>();
+    private List<Map<String, Object>> insuranceObjects;
+    private Map<String, Object> paymentFee;
     private Boolean isDeleted;
 
     @Builder
-    public QuotationCreatedEvent(Date updatedAt, String updatedBy, String id, String quotationCode, Integer line, String productName, Integer quotationType, Date createAt, String createBy, Boolean isCoinsurance, Boolean isFixed, Integer currency, Double exchangeRate, Date startDay, Date endDay, String distributionChannel, String managerialStaff, String customerName, String beneficiary, String insurer, String agentCode, String programCode, Integer quantityOfPrincipleContract, String representative, Integer status, Map<Integer, List<BaseInsured>> inusranceObject, Map<Integer, List<BasePremium>> paymentFee, Boolean isDeleted) {
+    public QuotationCreatedEvent(Date updatedAt, String updatedBy, String id, String quotationCode, Integer line, String productName, Integer quotationType, Date createAt, String createBy, Boolean isCoinsurance, Boolean isFixed, Integer currency, Double exchangeRate, Date startDay, Date endDay, String distributionChannel, String managerialStaff, String customerName, String beneficiary, String insurer, String agentCode, String programCode, Integer quantityOfPrincipleContract, String representative, Integer status, List<Map<String, Object>> insuranceObject, Map<String, Object> paymentFee, Boolean isDeleted) {
         super(updatedAt, updatedBy);
         this.id = id;
         this.quotationCode = quotationCode;
@@ -69,7 +72,7 @@ public class QuotationCreatedEvent extends BaseEvent {
         this.quantityOfPrincipleContract = quantityOfPrincipleContract;
         this.representative = representative;
         this.status = status;
-        this.inusranceObject = inusranceObject;
+        this.insuranceObjects = insuranceObject;
         this.paymentFee = paymentFee;
         this.isDeleted = isDeleted;
     }
