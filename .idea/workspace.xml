@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26c18761-46d6-4096-8dab-d6723a4db157" name="Changes" comment="" />
+    <list default="true" id="26c18761-46d6-4096-8dab-d6723a4db157" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/-1244268484/core-cmd.shared.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/core-cmd.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/core-domain.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/human/HumanModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/ac-module/domain/src/main/java/com/insurance/business/ac/domain/entity/EventStoreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/ac-module/domain/src/main/java/com/insurance/business/ac/domain/entity/EventStoreEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/java/com/insurance/business/core/command/CoreCmdApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/java/com/insurance/business/core/command/CoreCmdApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-cmd/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/entity/QuotationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/entity/QuotationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/HealthModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/MotorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/xcg/CarModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/MotorPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/model/premium/MotorPremium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/core-module/core-domain/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/constant/OPERATION.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/constant/LINE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/insurance/infrastructure/shared/model/BaseInsuranceObject.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +115,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lhoang1910"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:lhoang1910/insurance_project.git",
+    "accountId": "a6a2580d-74cd-40c2-871a-0f48f64c4fb9"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/business/core-module/core-domain/src/main/java/com/insurance/business/core/domain/aggregate/QuotationAggregate.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -104,40 +145,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build api_gateway.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build authentication_service.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build command.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build flow.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build query.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build registry_service.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AuthenticationServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CommandApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.FlowApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.QueryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RegistryServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/hoang/Project/insurane/business/core-module&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build api_gateway.executor": "Run",
+    "Gradle.Build authentication_service.executor": "Run",
+    "Gradle.Build command.executor": "Run",
+    "Gradle.Build core-cmd.executor": "Run",
+    "Gradle.Build core-domain.executor": "Run",
+    "Gradle.Build flow.executor": "Run",
+    "Gradle.Build query.executor": "Run",
+    "Gradle.Build registry_service.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.AuthenticationServiceApplication.executor": "Run",
+    "Spring Boot.CommandApplication.executor": "Run",
+    "Spring Boot.CoreCmdApplication.executor": "Run",
+    "Spring Boot.CoreDomainApplication (1).executor": "Run",
+    "Spring Boot.FlowApplication.executor": "Run",
+    "Spring Boot.QueryApplication.executor": "Run",
+    "Spring Boot.RegistryServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/hoang/Project/insurane/business/core-module",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -166,7 +213,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommandApplication">
+  <component name="RunManager" selected="Spring Boot.CoreCmdApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,6 +261,13 @@
     </configuration>
     <configuration name="CoreDomainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="core-domain.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.domain.CoreDomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreDomainApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-cmd.core-domain.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.business.core.domain.CoreDomainApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,6 +335,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SharedApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="core-cmd.shared.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.infrastructure.shared.SharedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SharedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="core-domain.shared.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.insurance.infrastructure.shared.SharedApplication" />
@@ -319,7 +380,7 @@
       <workItem from="1720075041871" duration="14484000" />
       <workItem from="1720090110702" duration="621000" />
       <workItem from="1720100324341" duration="10294000" />
-      <workItem from="1720144081400" duration="1615000" />
+      <workItem from="1720144081400" duration="28082000" />
     </task>
     <servers />
   </component>

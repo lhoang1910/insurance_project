@@ -52,6 +52,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/business/core-module/core-cmd" />
+            <option value="$PROJECT_DIR$/business/core-module/core-domain" />
+            <option value="$PROJECT_DIR$/shared" />
           </set>
         </option>
       </GradleProjectSettings>

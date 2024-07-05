@@ -1,1 +1,6 @@
 rootProject.name = 'core-cmd'
+include(":shared")
+project(":shared").projectDir = file("../../../shared")
+
+include(":core-domain")
+project(":core-domain").projectDir = file("../core-domain")

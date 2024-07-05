@@ -1,7 +1,7 @@
-package com.insurance.business.ac.domain.entity;
+package com.insurance.business.core.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.insurance.business.ac.domain.aggregate.UserAggregate;
+import com.insurance.business.core.domain.aggregate.QuotationAggregate;
 import com.insurance.infrastructure.shared.base.BaseEvent;
 import com.insurance.infrastructure.shared.constant.Date_TIME_FOMARTTER;
 import com.insurance.infrastructure.shared.constant.JPA_TYPE;
@@ -34,6 +34,6 @@ public class EventStoreEntity extends BaseEvent {
 
     @Type(type = JPA_TYPE.JSON_BINARY)
     @Column(columnDefinition = JPA_TYPE.JSON_BINARY)
-    private UserAggregate data;
+    private QuotationAggregate data;
     private String updatedBy;
 }

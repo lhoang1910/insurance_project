@@ -5,14 +5,13 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MotorPremium {
-    private String formInsurance;
-    private Double preTaxPaymentFee;
-    private Double preTaxPaymentFee;
-    private Double tax;
-    private Double afterTaxPaymentFee;
+public class PaymentModel {
+    private Date paymentTerm;
+    private Double amount;
 }
